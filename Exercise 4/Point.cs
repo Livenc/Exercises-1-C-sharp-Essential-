@@ -10,7 +10,7 @@ namespace Exercise_4
     internal class Point
     {
         int x, y;
-        string name;
+        string name; //?
         public int X
         {
             get
@@ -26,11 +26,11 @@ namespace Exercise_4
         {
             get
             {
-                return Y;
+                return y;
             }
             set
             {
-                Y = value;
+                y = value;
             }
         }
         public string Name
@@ -44,7 +44,7 @@ namespace Exercise_4
                 name = value;
             }
         }
-        Point(int x,int y )
+        public Point(int x,int y )
         {
             X = x; Y = y;
         }
